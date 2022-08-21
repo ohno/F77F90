@@ -5,4 +5,5 @@ program main
   call if(0)
   call if(1)
   call if(2)
+  call if(3)
 end program
