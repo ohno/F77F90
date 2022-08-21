@@ -1,4 +1,4 @@
-subroutine if_new(i)
+subroutine if(i)
   implicit none
   integer :: i
   integer :: j
@@ -6,13 +6,13 @@ subroutine if_new(i)
   print *, i
   
   if (i/=0) then
-    print *, 'i != 0'
+    print *, 'i /= 0'
   end if
 
   if (i/=0) then
-    print *, 'i != 0'
+    print *, 'i /= 0'
     if (i/=1) then
-      print *, 'i != 1'
+      print *, 'i /= 1'
     end if
   end if
   

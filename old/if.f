@@ -1,4 +1,4 @@
-      SUBROUTINE IF_OLD(I)
+      SUBROUTINE IF(I)
       IMPLICIT INTEGER (I-N)
 
       PRINT *, I

@@ -1,4 +1,4 @@
-subroutine do_new()
+subroutine do()
   implicit none
   integer :: i
   integer :: j

@@ -32,6 +32,5 @@
 *.app
 
 # For This Repository
+*.log
 main
-main.exe
-main.log

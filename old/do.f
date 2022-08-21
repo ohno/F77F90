@@ -1,4 +1,4 @@
-      SUBROUTINE DO_OLD()
+      SUBROUTINE DO()
       IMPLICIT INTEGER (I-N)
 
       DO 10 I=1,2
