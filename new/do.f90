@@ -19,7 +19,7 @@ subroutine do()
   end do
 
   do i=1,2
-    print *, i, j
+    print *, i
     do j=3,5
       print *, i, j
     end do

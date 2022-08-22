@@ -14,7 +14,7 @@
    40 PRINT *, J
 
       DO 50 I=1,2
-      PRINT *, I, J
+      PRINT *, I
       DO 50 J=3,5
       PRINT *, I, J
    50 CONTINUE
