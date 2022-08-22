@@ -1,4 +1,8 @@
       program main
+      print *, 'hello'
+      call hello()
+      print *, 'format'
+      call format()
       print *, 'do'
       call do()
       print *, 'if'

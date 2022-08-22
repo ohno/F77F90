@@ -1,0 +1,3 @@
+      SUBROUTINE HELLO()
+      PRINT *, "HELLO"
+      END SUBROUTINE
