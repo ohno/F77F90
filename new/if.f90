@@ -6,13 +6,13 @@ subroutine if(i)
   print *, i
   
   if (i/=0) then
-    print *, 'i /= 0'
+    print *, 'I /= 0'
   end if
 
   if (i/=0) then
-    print *, 'i /= 0'
+    print *, 'I /= 0'
     if (i/=1) then
-      print *, 'i /= 1'
+      print *, 'I /= 1'
     end if
   end if
   

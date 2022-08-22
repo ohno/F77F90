@@ -1,3 +1,3 @@
 subroutine hello()
-  print *, "hello"
+  print *, "HELLO"
 end subroutine
