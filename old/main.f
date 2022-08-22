@@ -6,4 +6,6 @@
       call if(1)
       call if(2)
       call if(3)
+      print *, 'while'
+      call while()
       end program
