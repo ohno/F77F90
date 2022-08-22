@@ -6,26 +6,30 @@
 
       DO 20 I=1,2
       PRINT *, I
-   20 CONTINUE
- 
+   20 PRINT *, I
+
       DO 30 I=1,2
-   30 PRINT *, I
-      DO 40 J=3,5
-   40 PRINT *, J
-
-      DO 50 I=1,2
       PRINT *, I
-      DO 50 J=3,5
-      PRINT *, I, J
-   50 CONTINUE
+   30 CONTINUE
  
-      DO 60 I=1,2
-      DO 60 J=3,5
-   60 PRINT *, I, J
+      DO 40 I=1,2
+   40 PRINT *, I
+      DO 50 J=3,5
+   50 PRINT *, J
 
-      DO 70 I = 1,2
-      DO 70 J = 3,5
+      DO 60 I=1,2
+      PRINT *, I
+      DO 60 J=3,5
       PRINT *, I, J
-   70 CONTINUE
+   60 CONTINUE
+ 
+      DO 70 I=1,2
+      DO 70 J=3,5
+   70 PRINT *, I, J
+
+      DO 80 I = 1,2
+      DO 80 J = 3,5
+      PRINT *, I, J
+   80 CONTINUE
       
       END SUBROUTINE

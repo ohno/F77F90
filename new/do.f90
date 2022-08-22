@@ -9,6 +9,11 @@ subroutine do()
 
   do i=1,2
     print *, i
+    print *, i
+  end do
+
+  do i=1,2
+    print *, i
   end do
 
   do i=1,2
