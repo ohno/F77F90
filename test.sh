@@ -12,6 +12,8 @@ echo "run"
 echo "diff"
 diff -i ./old/main.log ./new/main.log
 
+# To compare the results of a reverse assembly, remove the comment out.
+
 # echo "compile"
 # cd $path/old
 # gfortran -c *.f
@@ -32,7 +34,7 @@ diff -i ./old/main.log ./new/main.log
 # done
 
 # echo "clear"
-# # rm ./*/main
-# # rm ./*/*.o
-# # rm ./*/*.od
-# # rm ./*/*.log
+# rm ./*/main
+# rm ./*/*.o
+# rm ./*/*.od
+# rm ./*/*.log
