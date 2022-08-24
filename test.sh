@@ -12,27 +12,27 @@ echo "run"
 echo "diff"
 diff -i ./old/main.log ./new/main.log
 
-echo "compile"
-cd $path/old
-gfortran -c *.f
-cd $path/new
-gfortran -c *.f90
-cd $path
+# echo "compile"
+# cd $path/old
+# gfortran -c *.f
+# cd $path/new
+# gfortran -c *.f90
+# cd $path
 
-echo "decompile"
-for file in ./old/*.o ./new/*.o; do
-  objdump -S $file > ${file%.*}.od
-done
+# echo "decompile"
+# for file in ./old/*.o ./new/*.o; do
+#   objdump -S $file > ${file%.*}.od
+# done
 
-echo "diff"
-for file in ./old/*.od; do
-  name=`basename $file`
-  echo $name
-  diff -i ./old/$name ./new/$name
-done
+# echo "diff"
+# for file in ./old/*.od; do
+#   name=`basename $file`
+#   echo $name
+#   diff -i ./old/$name ./new/$name
+# done
 
-echo "clear"
-# rm ./*/main
-# rm ./*/*.o
-# rm ./*/*.od
-# rm ./*/*.log
+# echo "clear"
+# # rm ./*/main
+# # rm ./*/*.o
+# # rm ./*/*.od
+# # rm ./*/*.log
