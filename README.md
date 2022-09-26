@@ -1,4 +1,4 @@
-# F77f90
+# F77F90
 
 1. Install [gfortran](https://zenn.dev/ohno/books/356315a0e6437c/viewer/2b78dd) first. 
 ```
