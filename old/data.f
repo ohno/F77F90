@@ -17,14 +17,14 @@
       DATA F,G/1,2,3,4,5,6/
       DATA H/1,2,3,4,5,6/
       
-      PRINT *, "A = ", A
-      PRINT *, "B = ", B
-      PRINT *, "C = ", C
-      PRINT *, "D = ", D
-      PRINT *, "E = ", E
-      PRINT *, "F = ", F
-      PRINT *, "G = ", G
-      PRINT *, "H(1,:) = ", H(1,:)
-      PRINT *, "H(2,:) = ", H(2,:)
+      PRINT *, "PRINT *, A      ->", A
+      PRINT *, "PRINT *, B      ->", B
+      PRINT *, "PRINT *, C      ->", C
+      PRINT *, "PRINT *, D      ->", D
+      PRINT *, "PRINT *, E      ->", E
+      PRINT *, "PRINT *, F      ->", F
+      PRINT *, "PRINT *, G      ->", G
+      PRINT *, "PRINT *, H(1,:) ->", H(1,:)
+      PRINT *, "PRINT *, H(2,:) ->", H(2,:)
 
       END SUBROUTINE
