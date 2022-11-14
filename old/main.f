@@ -1,6 +1,8 @@
       program main
       print *, 'hello'
       call hello()
+      print *, 'data'
+      call data()
       print *, 'format'
       call format()
       print *, 'do'
@@ -12,6 +14,4 @@
       call if(3)
       print *, 'while'
       call while()
-      print *, 'data'
-      call data()
       end program

@@ -1,5 +1,10 @@
 echo "start"
-path=$(cd $(dirname $0);pwd)
+rm -f ./old/*.o
+rm -f ./old/*.od
+rm -f ./old/*.log
+rm -f ./new/*.o
+rm -f ./new/*.od
+rm -f ./new/*.log
 
 echo "build"
 gfortran -std=legacy -o ./old/main ./old/*.f
@@ -15,6 +20,7 @@ diff -i ./old/main.log ./new/main.log
 # To compare the results of a reverse assembly, remove the comment out.
 
 # echo "compile"
+# path=$(cd $(dirname $0);pwd)
 # cd $path/old
 # gfortran -c *.f
 # cd $path/new
