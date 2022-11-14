@@ -1,0 +1,17 @@
+			SUBROUTINE DATA()
+			IMPLICIT INTEGER (A-Z)
+
+			DIMENSION A(3)
+			DIMENSION B(3)
+			DIMENSION C(2,3)
+
+			DATA A/1,2,3/
+			DATA B/3,6,9/
+			DATA C/1,2,3,4,5,6/
+
+			PRINT *, A
+			PRINT *, B
+	    PRINT *, C(1,:)
+	    PRINT *, C(2,:)
+
+			END SUBROUTINE

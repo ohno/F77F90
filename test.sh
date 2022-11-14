@@ -2,7 +2,7 @@ echo "start"
 path=$(cd $(dirname $0);pwd)
 
 echo "build"
-gfortran -o ./old/main ./old/*.f
+gfortran -std=legacy -o ./old/main ./old/*.f
 gfortran -o ./new/main ./new/*.f90
 
 echo "run"

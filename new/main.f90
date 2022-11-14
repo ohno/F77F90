@@ -12,4 +12,6 @@ program main
   call if(3)
   print *, 'while'
   call while()
+  print *, 'data'
+  call data()
 end program
