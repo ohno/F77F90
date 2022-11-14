@@ -5,7 +5,7 @@
 			DIMENSION C(3)
 			DIMENSION D(2,3)
 
-			DATA A/-5/
+			DATA A/1/
 			DATA B/1,2,3/
 			DATA C/3,6,9/
 			DATA D/1,2,3,4,5,6/
