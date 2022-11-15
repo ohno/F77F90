@@ -1,4 +1,5 @@
 subroutine data()
+implicit none
 
 integer :: A = 1
 integer :: B(3) = [1,2,3]
